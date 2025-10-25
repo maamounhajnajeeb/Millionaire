@@ -5,13 +5,13 @@ namespace classes.Question
     public class Question : QuestionBase
     {
         public string CorrectAnswer { get; set; }
-        public List<string> WrongAnswers { get; set; }
+        public string[] WrongAnswers { get; set; }
 
         public Question(
             int level,
             string text,
             string correctAnswer,
-            List<string> wrongAnswers
+            string[] wrongAnswers
         )
             : base(level, text)
         {

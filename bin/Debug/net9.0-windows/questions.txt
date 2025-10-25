@@ -1,0 +1,104 @@
+#Level1
+What is the capital of France?;Paris;London;Berlin;Madrid;Rome;Athens;Lisbon
+Which color is the sky on a clear day?;Blue;Red;Yellow;Green;Black;Orange;Pink
+How many days are there in a week?;7;5;6;8;9;10;12
+Which animal says "meow"?;Cat;Dog;Horse;Sheep;Cow;Goat;Pig
+What is 2 + 2?;4;3;5;6;7;8;9
+
+#Level2
+Which planet is known as the Red Planet?;Mars;Venus;Earth;Jupiter;Saturn;Neptune;Mercury
+What is H2O commonly known as?;Water;Salt;Oxygen;Hydrogen;Fire;Sugar;Air
+Which shape has three sides?;Triangle;Square;Circle;Rectangle;Pentagon;Hexagon;Octagon
+What is the opposite of hot?;Cold;Warm;Heat;Boiling;Burning;Dry;Wet
+Which season comes after spring?;Summer;Winter;Autumn;Rainy;Dry;Foggy;Stormy
+
+#Level3
+Who wrote "Romeo and Juliet"?;Shakespeare;Homer;Dickens;Tolstoy;Hemingway;Orwell;Joyce
+What is 5 x 5?;25;20;15;30;10;50;40
+Which ocean is the largest?;Pacific;Atlantic;Indian;Arctic;Southern;Red;Black
+What do bees make?;Honey;Milk;Wax;Jam;Cheese;Juice;Oil
+How many continents are there?;7;5;6;8;9;4;3
+
+#Level4
+What gas do humans breathe in?;Oxygen;Carbon;Hydrogen;Nitrogen;Helium;Smoke;Steam
+Which month has 28 days?;All;February;January;June;March;May;October
+How many hours are in a day?;24;12;25;26;30;20;10
+What do cows drink?;Water;Milk;Juice;Tea;Coffee;Oil;Beer
+What is the capital of Italy?;Rome;Milan;Venice;Florence;Naples;Pisa;Turin
+
+#Level5
+What is the boiling point of water?;100;90;80;70;60;110;120
+Which instrument has black and white keys?;Piano;Guitar;Drum;Violin;Flute;Harp;Saxophone
+Which bird is a symbol of peace?;Dove;Eagle;Crow;Owl;Parrot;Peacock;Swan
+How many legs does a spider have?;8;6;4;10;12;14;2
+What is the capital of Spain?;Madrid;Barcelona;Valencia;Seville;Bilbao;Granada;Toledo
+
+#Level6
+Which metal is liquid at room temperature?;Mercury;Iron;Gold;Silver;Copper;Zinc;Lead
+What is the square root of 81?;9;8;7;6;10;11;12
+Which planet is closest to the Sun?;Mercury;Venus;Earth;Mars;Jupiter;Saturn;Neptune
+What is the main ingredient in bread?;Flour;Rice;Milk;Meat;Cheese;Potato;Corn
+Who painted the Mona Lisa?;Da Vinci;Picasso;Van Gogh;Rembrandt;Michelangelo;Raphael;Monet
+
+#Level7
+Which blood type is the universal donor?;O Negative;O Positive;A Positive;A Negative;B Positive;B Negative;AB Positive
+What is the capital of Germany?;Berlin;Munich;Frankfurt;Hamburg;Cologne;Dresden;Stuttgart
+How many players are on a soccer team?;11;9;10;12;8;13;7
+What is the fastest land animal?;Cheetah;Horse;Lion;Tiger;Leopard;Wolf;Gazelle
+Which organ pumps blood in the body?;Heart;Lung;Brain;Liver;Kidney;Stomach;Pancreas
+
+#Level8
+What is the currency of the USA?;Dollar;Euro;Pound;Yen;Franc;Peso;Rupee
+Who discovered gravity?;Newton;Einstein;Tesla;Galileo;Edison;Darwin;Hawking
+What is the capital of Japan?;Tokyo;Osaka;Kyoto;Nagoya;Hiroshima;Sapporo;Nagasaki
+How many teeth does an adult human have?;32;30;28;26;34;36;40
+Which gas do plants release?;Oxygen;Carbon dioxide;Hydrogen;Nitrogen;Helium;Methane;Steam
+
+#Level9
+What is the largest desert in the world?;Sahara;Gobi;Kalahari;Arabian;Thar;Patagonia;Mojave
+Which language has the most native speakers?;Mandarin;English;Spanish;Hindi;Arabic;French;Portuguese
+What is the hardest natural substance?;Diamond;Gold;Iron;Steel;Silver;Quartz;Platinum
+Which organ is used for breathing?;Lungs;Heart;Kidneys;Liver;Stomach;Brain;Intestine
+How many planets are in the solar system?;8;7;9;6;10;11;5
+
+#Level10
+What is the capital of Canada?;Ottawa;Toronto;Vancouver;Montreal;Calgary;Quebec;Edmonton
+Who was the first man on the moon?;Neil Armstrong;Buzz Aldrin;Yuri Gagarin;John Glenn;Alan Shepard;Michael Collins;Chris Hadfield
+What is the speed of light?;299792458;300000;150000;100000;200000;250000;400000
+Which gas makes balloons float?;Helium;Oxygen;Hydrogen;Nitrogen;Steam;Air;Carbon dioxide
+Which is the largest mammal?;Blue Whale;Elephant;Shark;Giraffe;Hippo;Rhino;Whale Shark
+
+#Level11
+What is the smallest prime number?;2;1;3;5;7;9;11
+Which planet has rings?;Saturn;Jupiter;Uranus;Neptune;Mars;Earth;Venus
+Who invented the telephone?;Bell;Edison;Tesla;Marconi;Newton;Faraday;Volta
+What is the capital of Australia?;Canberra;Sydney;Melbourne;Perth;Adelaide;Brisbane;Hobart
+Which continent is Egypt in?;Africa;Asia;Europe;South America;North America;Australia;Antarctica
+
+#Level12
+What is the chemical symbol for gold?;Au;Ag;Fe;Cu;Pb;Zn;Sn
+Which organ is called the "control center"?;Brain;Heart;Liver;Kidneys;Lungs;Stomach;Skin
+What is the largest country in the world?;Russia;China;USA;Canada;Brazil;India;Australia
+What is the capital of Brazil?;Brasilia;Rio de Janeiro;Sao Paulo;Salvador;Recife;Fortaleza;Manaus
+What is frozen water called?;Ice;Snow;Hail;Steam;Fog;Rain;Frost
+
+#Level13
+Which element do humans need to breathe?;Oxygen;Carbon;Nitrogen;Hydrogen;Helium;Sulfur;Iron
+Who painted "Starry Night"?;Van Gogh;Da Vinci;Picasso;Monet;Raphael;Michelangelo;Rembrandt
+What is the capital of Egypt?;Cairo;Alexandria;Giza;Luxor;Aswan;Port Said;Mansoura
+What is 12 x 12?;144;124;132;100;121;156;200
+Which instrument has strings?;Guitar;Drum;Trumpet;Flute;Saxophone;Trombone;Violin
+
+#Level14
+Which planet is called the "giant planet"?;Jupiter;Saturn;Neptune;Uranus;Earth;Mars;Venus
+What is the national sport of Japan?;Sumo;Judo;Karate;Baseball;Kendo;Soccer;Tennis
+What is the capital of Russia?;Moscow;Saint Petersburg;Kazan;Sochi;Novosibirsk;Omsk;Vladivostok
+Which organ filters blood?;Kidneys;Heart;Liver;Lungs;Stomach;Spleen;Pancreas
+What is the longest river in the world?;Nile;Amazon;Yangtze;Mississippi;Danube;Ganges;Volga
+
+#Level15
+What is the chemical formula of table salt?;NaCl;KCl;H2O;CO2;O2;CH4;CaCO3
+Which is the rarest blood type?;AB Negative;O Positive;A Positive;B Positive;O Negative;A Negative;B Negative
+What is the capital of China?;Beijing;Shanghai;Hong Kong;Shenzhen;Guangzhou;Nanjing;Chengdu
+Who developed the theory of relativity?;Einstein;Newton;Tesla;Hawking;Darwin;Planck;Bohr
+Which is the tallest mountain in the world?;Everest;K2;Kangchenjunga;Makalu;Lhotse;Manaslu;Nanga Parbat

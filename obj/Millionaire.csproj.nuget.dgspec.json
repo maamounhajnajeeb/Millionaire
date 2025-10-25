@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C#\\Millionaire\\Millionaire\\Millionaire.csproj": {}
+    "D:\\C#\\Millionaire\\Millionaire.csproj": {}
   },
   "projects": {
-    "D:\\C#\\Millionaire\\Millionaire\\Millionaire.csproj": {
+    "D:\\C#\\Millionaire\\Millionaire.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#\\Millionaire\\Millionaire\\Millionaire.csproj",
+        "projectUniqueName": "D:\\C#\\Millionaire\\Millionaire.csproj",
         "projectName": "Millionaire",
-        "projectPath": "D:\\C#\\Millionaire\\Millionaire\\Millionaire.csproj",
+        "projectPath": "D:\\C#\\Millionaire\\Millionaire.csproj",
         "packagesPath": "C:\\Users\\maamo\\.nuget\\packages\\",
-        "outputPath": "D:\\C#\\Millionaire\\Millionaire\\obj\\",
+        "outputPath": "D:\\C#\\Millionaire\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\maamo\\AppData\\Roaming\\NuGet\\NuGet.Config"
