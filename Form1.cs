@@ -1,9 +1,19 @@
+using classes.GameManager;
+using classes.Question;
+
 namespace Millionaire;
 
 public partial class Form1 : Form
 {
+    // create game manager instance
+    private readonly GameManager gameManager;
+    private int levelNumber = 0;
     public Form1()
     {
+        // initialize properties
+        List<List<Question>> allQuestions = [];
+        this.gameManager = new GameManager(allQuestions);
+
         InitializeComponent();
         // question levels labels
         string[] questionLevels =
@@ -25,6 +35,16 @@ public partial class Form1 : Form
     
     private void startButton_Click(object sender, EventArgs e)
     {
-        MessageBox.Show("Hello from .NET!");
+        // load questions from file
+        this.gameManager.LoadQuestions("bin\\Debug\\net9.0-windows\\questions.txt");
+
+        // pick a random question for first level
+        Question q = this.gameManager.GetRandomQuestion(this.levelNumber);
+
+        // change question text label
+        this.questionText.Text = q.Text;
+
+
+
     }
 }

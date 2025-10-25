@@ -18,14 +18,15 @@ namespace classes.GameManager
         {
             StreamReader fr; 
             try 
-            { 
+            {
                 //create StreamReader object 
                 fr = new StreamReader(path); 
-            
+                
                 string content;
                 for (int i = 0; i < 15; i++)
                 {
                     AllQuestions.Add(new List<Question>());
+                    string levelHeader = fr.ReadLine(); // read level header
 
                     for (int j = 0; j < 5; j++)
                     {
@@ -39,9 +40,10 @@ namespace classes.GameManager
                         Question q = new Question(i + 1, questionText, rightAnswer, wrongAnswers);
                         AllQuestions[i].Add(q);
                     }
+                    string endLine = fr.ReadLine(); // read blank end line
                 } 
 
-                fr.Close();  
+                fr.Close();
             
             } 
             catch (Exception e) { Console.WriteLine(e.Message); } 
@@ -49,7 +51,7 @@ namespace classes.GameManager
 
         public Question GetRandomQuestion(int level)
         {
-            return AllQuestions[level][Rand.Next(1, 6)];
+            return AllQuestions[level][Rand.Next(0, 5)];
         }
 
         public List<string> GetShuffledAnswers(Question q)

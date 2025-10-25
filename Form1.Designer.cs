@@ -55,7 +55,7 @@ partial class Form1
 
         // current money label
         this.currentMoneyLabel = new System.Windows.Forms.Label();
-        this.currentMoneyLabel.Text = "Current Money: $";
+        this.currentMoneyLabel.Text = "Current: $";
         this.currentMoneyLabel.Location = new Point(360, 100);
         this.Controls.Add(this.currentMoneyLabel);
 
@@ -73,7 +73,7 @@ partial class Form1
 
         // 50:50 choice button
         this.fiftyFifty = new System.Windows.Forms.Button();
-        this.fiftyFifty.Text = "FiftyFifty";
+        this.fiftyFifty.Text = "50:50";
         this.fiftyFifty.Click += (s, e) => MessageBox.Show("Hello from 50:50");
         this.fiftyFifty.Location = new Point(0, 250);
         this.fiftyFifty.Size = new Size(300, 25);
@@ -81,7 +81,7 @@ partial class Form1
 
         // switch question choice button
         this.swiitchQuestionButton = new System.Windows.Forms.Button();
-        this.swiitchQuestionButton.Text = "SwitchQuestion";
+        this.swiitchQuestionButton.Text = "Switch Question";
         this.swiitchQuestionButton.Click += (s, e) => MessageBox.Show("Hello from switch questoin");
         this.swiitchQuestionButton.Location = new Point(300, 250);
         this.swiitchQuestionButton.Size = new Size(300, 25);
@@ -93,7 +93,6 @@ partial class Form1
         this.withDraw.Click += (s, e) => MessageBox.Show("Hello from withdraw");
         this.withDraw.Location = new Point(0, 400);
         this.withDraw.Size = new Size(800, 50);
-
         this.Controls.Add(this.withDraw);
 
         // question text label
@@ -103,7 +102,6 @@ partial class Form1
         this.questionText.Size = new Size(600, 100);
         this.questionText.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
         this.questionText.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-
         this.Controls.Add(this.questionText);
 
         // Answers Buttons
@@ -120,7 +118,6 @@ partial class Form1
         this.answerD.Click += (s, e) => MessageBox.Show("Hello from Answer d");
         this.answerD.Location = new Point(300, 330);
         this.answerD.Size = new Size(300, 50);
-
         this.Controls.Add(this.answerD);
 
         this.answerA = new System.Windows.Forms.Button();
