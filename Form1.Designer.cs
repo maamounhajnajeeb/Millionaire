@@ -91,7 +91,7 @@ partial class Form1
         // 50:50 choice button
         this.fiftyFifty = new System.Windows.Forms.Button();
         this.fiftyFifty.Text = "50:50";
-        this.fiftyFifty.Click += (s, e) => MessageBox.Show("Hello from 50:50");
+        this.fiftyFifty.Click += new System.EventHandler(fiftyFifty_Click);
         this.fiftyFifty.Location = new Point(0, 250);
         this.fiftyFifty.Size = new Size(300, 25);
         this.Controls.Add(this.fiftyFifty);
@@ -99,7 +99,7 @@ partial class Form1
         // switch question choice button
         this.swiitchQuestionButton = new System.Windows.Forms.Button();
         this.swiitchQuestionButton.Text = "Switch Question";
-        this.swiitchQuestionButton.Click += (s, e) => MessageBox.Show("Hello from switch questoin");
+        this.swiitchQuestionButton.Click += new System.EventHandler(swiitchQuestionButton_Click);
         this.swiitchQuestionButton.Location = new Point(300, 250);
         this.swiitchQuestionButton.Size = new Size(300, 25);
         this.Controls.Add(this.swiitchQuestionButton);
