@@ -8,19 +8,29 @@ public partial class Form1 : Form
     // create game manager instance
     private readonly GameManager gameManager;
     private Question currentQuestion;
-    private int levelNumber = 0;
-    private int money = 0;
+    private int firstBase, secondBase, money, levelNumber;
     public Form1()
     {
         // initialize properties
         List<List<Question>> allQuestions = [];
         this.gameManager = new GameManager(allQuestions);
+        this.money = 0;
+        this.levelNumber = 0;
+        this.firstBase = 8;
+        this.secondBase = 11;
 
         InitializeComponent();
     }
 
     private void changeGameDependOnLevel()
     {
+        // check if player arrived to the end of the questions
+        if (this.levelNumber == 15)
+        {
+            MessageBox.Show($"Congrats, You Won $1000000");
+            this.Close();
+        }
+
         // pick a random question for first level
         Question q = this.gameManager.GetRandomQuestion(this.levelNumber);
 
@@ -31,7 +41,7 @@ public partial class Form1 : Form
         this.levelLabel.Text = $"Level: {this.levelNumber + 1}";
 
         // change current question money label
-        this.currentMoneyLabel.Text = $"{this.currentMoneyLabel.Text[..9]}{this.QuestionsLevelLabels[this.levelNumber].Text}";
+        this.currentMoneyLabel.Text = $"Current: {this.QuestionsLevelLabels[this.levelNumber].Text}";
 
         // change question text label
         this.questionText.Text = q.Text;
@@ -57,26 +67,25 @@ public partial class Form1 : Form
         this.answerD.Text = shuffledAnswers[3];
         this.answerD.Enabled = true;
     }
-
     private void startButton_Click(object sender, EventArgs e)
     {
         // disable start game button
         this.startButton.Enabled = false;
 
         // load questions from file
-        this.gameManager.LoadQuestions("bin\\Debug\\net9.0-windows\\questions.txt");
+        // this.gameManager.LoadQuestions("bin\\Debug\\net9.0-windows\\questions.txt");
+        this.gameManager.LoadQuestions("questions.txt");
 
         // change game state depending on level
         this.changeGameDependOnLevel();
     }
-
     private void trueAnswer()
     {
         // get current question money
         int currentQuestionMoney = this.questionLevels[this.levelNumber];
 
         // add money
-        this.money += currentQuestionMoney;
+        this.money = currentQuestionMoney;
 
         // display money to player
         MessageBox.Show($"Correct Answer, you won ${currentQuestionMoney}");
@@ -91,7 +100,23 @@ public partial class Form1 : Form
         // increase levelNumber and do next question logic
         this.changeGameDependOnLevel();
     }
-
+    private void wrongAnswer()
+    {
+        if (this.levelNumber >= this.secondBase)
+        {
+            this.money = 64000;
+        }
+        else if (this.levelNumber >= this.firstBase)
+        {
+            this.money = 8000;
+        }
+        else
+        {
+            this.money = 0;
+        }
+        MessageBox.Show($"Wrong Answer! Game Over. You Earned ${this.money}");
+        this.Close();
+    }
     private void answerAButton_Click(object sender, EventArgs e)
     {
         Button clickedButton = (Button)sender;
@@ -112,10 +137,8 @@ public partial class Form1 : Form
             }
             else
             {
-                MessageBox.Show("Wrong Answer! Game Over.");
-                // reset game
-                // this.levelNumber = 0;
-                // this.startButton.Enabled = true;
+                // do failure logic
+                this.wrongAnswer();
             }
         }
     }
@@ -140,10 +163,8 @@ public partial class Form1 : Form
             }
             else
             {
-                MessageBox.Show("Wrong Answer! Game Over.");
-                // reset game
-                // this.levelNumber = 0;
-                // this.startButton.Enabled = true;
+                // do failure logic
+                this.wrongAnswer();
             }
         }
     }
@@ -168,10 +189,8 @@ public partial class Form1 : Form
             }
             else
             {
-                MessageBox.Show("Wrong Answer! Game Over.");
-                // reset game
-                // this.levelNumber = 0;
-                // this.startButton.Enabled = true;
+                // do failure logic
+                this.wrongAnswer();
             }
         }
     }
@@ -196,10 +215,8 @@ public partial class Form1 : Form
             }
             else
             {
-                MessageBox.Show("Wrong Answer! Game Over.");
-                // reset game
-                // this.levelNumber = 0;
-                // this.startButton.Enabled = true;
+                // do failure logic
+                this.wrongAnswer();
             }
         }
     }

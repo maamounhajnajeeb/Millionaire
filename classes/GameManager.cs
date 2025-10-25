@@ -16,11 +16,13 @@ namespace classes.GameManager
         
         public void LoadQuestions(string path)
         {
-            StreamReader fr; 
+            StreamReader fr;
+            string fullPath = Path.Combine(AppContext.BaseDirectory, path);
             try 
             {
-                //create StreamReader object 
-                fr = new StreamReader(path); 
+                //create StreamReader object
+                fr = new StreamReader(fullPath);
+                // fr = new StreamReader(path); 
                 
                 string content;
                 for (int i = 0; i < 15; i++)
